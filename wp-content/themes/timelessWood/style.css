@@ -1,0 +1,63 @@
+/* 
+Theme Name: Timeless Wood
+Text Domain: Timeless Wood
+Version: 1.0
+Description: Classy timeless wood working company
+Author: Yannick van Eck
+Author URI: https://portfolio.yannickvaneck.be/
+
+*/
+
+
+/* Declaring variables */
+
+/* Main container */
+body{
+    display: grid;
+}
+.main-container{
+    display: flex;
+    max-width: 1822px;
+    justify-content: center;
+    justify-self: center;
+}
+
+/* Navigation */
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 1822px;
+}
+
+.nav-menu{
+    display: flex;
+    
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font: normal normal normal 20px/30px Lato;
+    padding: 21px 37px 20px 37px;
+    
+}
+
+#contact{
+    border: 1px solid #000;
+    font: normal normal bold 20px/30px Lato;
+}
