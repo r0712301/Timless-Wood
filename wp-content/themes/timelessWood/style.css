@@ -21,6 +21,7 @@ body{
 }
 .main-container{
     display: flex;
+    flex-wrap: wrap;
     max-width: 1822px;
     justify-content: center;
     justify-self: start;
@@ -75,6 +76,56 @@ nav ul li a{
     width: 351px;
     height: 65px;
     margin: 0;
+}
 
+/* Homepage: Hero section*/
 
+.hero-section{
+    display: flex;
+    align-items: flex-end;
+    width: 1822px;
+    height: 865px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/hero.png") ;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.hero-title-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 846px;
+    margin-left: 49px;
+}
+
+#hero-title{
+    display: flex;
+    font: normal normal bold 94px/100px Playfair Display;
+    color: #FFF;
+    letter-spacing: 0px;
+    margin-bottom: 35px;
+}
+
+.hero-button-container{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    margin-bottom: 50px;
+}
+
+.hero-button{
+    background-color: #fff;
+    border: 1px solid #000;
+    font: normal normal bold 20px/30px Lato;
+    letter-spacing: 0px;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+#hero-button-L{
+    padding: 21px 42px 20px 43px;
+    margin-right: 25px;
+}
+#hero-button-R{
+    padding: 21px 47px 20px 48px;
 }
