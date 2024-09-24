@@ -13,7 +13,7 @@
     <!-- main container start -->
     <div class="main-container">
         <div class="header">
-            <div><img src="wp-content\themes\customtheme\assets\images\logo.png" alt="Logo"></div>
+            <div><img class="logo" src="wp-content\themes\timelessWood\assets\images\logo.png" alt="Logo"></div>
             <div class="nav-menu">
                 <nav>
                     <ul>
