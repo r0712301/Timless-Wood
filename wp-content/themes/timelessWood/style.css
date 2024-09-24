@@ -12,6 +12,10 @@ Author URI: https://portfolio.yannickvaneck.be/
 /* Declaring variables */
 
 /* Main container */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     display: grid;
 }
@@ -19,7 +23,11 @@ body{
     display: flex;
     max-width: 1822px;
     justify-content: center;
-    justify-self: center;
+    justify-self: start;
+    margin: 0;
+    margin-left: 48px;
+    margin-top: 50px;
+    margin-right: 50px;
 }
 
 /* Navigation */
@@ -31,7 +39,7 @@ body{
 
 .nav-menu{
     display: flex;
-    
+
 }
 
 nav{
@@ -42,6 +50,7 @@ nav ul{
     list-style: none;
     justify-content: space-between;
     padding: 0;
+    margin: 0;
     align-items: center;
 }
 
@@ -60,4 +69,12 @@ nav ul li a{
 #contact{
     border: 1px solid #000;
     font: normal normal bold 20px/30px Lato;
+}
+
+.logo{
+    width: 351px;
+    height: 65px;
+    margin: 0;
+
+
 }
