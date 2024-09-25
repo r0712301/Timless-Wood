@@ -1,9 +1,9 @@
 <?php
-    get_header();
+get_header();
 ?>
 <div class="hero-section">
     <div class="hero-title-container">
-        <h1 id="hero-title" >Masters in outdoor wood projects</h1>
+        <h1 id="hero-title">Masters in outdoor wood projects</h1>
         <div class="hero-button-container">
             <a id="hero-button-L" class="hero-button" href="#">Ontdek ons aanbod</a>
             <a id="hero-button-R" class="hero-button" href="#">Contacteer ons</a>
@@ -14,7 +14,7 @@
 
 <div class="slogan-section">
     <div class="slogan-image-container">
-        <div id="gray-box"></div>
+        <div id="gray-box-slogan"></div>
         <img class="slogan-image" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/passie.png" alt="houtbewerking">
     </div>
     <div class="slogan-text-container">
@@ -58,7 +58,32 @@
         </ul>
     </div>
 </div>
-    
+<div class="realisatie-container">
+    <div id="gray-box-realisatie"></div>
+    <div class="realisatie-foreground-container">
+        <h2 class="realisatie-title">Realisaties</h2>
+        <div class="realisatie-text-btn-conatainer">
+            <p class="realisatie-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur sollicitudin varius. Vestibulum quis erat aliquet, fermentum tortor at, iaculis lacus.</p>
+            <a href="" class="realisatie-btn">Bekijk meer</a>
+        </div>
+        <div class="realisatie-cards-conatainer">
+            <div id="realisatie-card-L" class="realisatie-card">
+                <div>
+                    <h3 class="realisatie-card-title">NJOYIN THE POOL - ZOERSEL</h3>
+                    <a href="" class="realisatie-card-btn">Terrasbouw</a>
+                </div>
+
+            </div>
+            <div id="realisatie-card-R" class="realisatie-card">
+                <div>
+                    <h3 class="realisatie-card-title">ENJOY YOUR STAY!</h3>
+                    <a href="" class="realisatie-card-btn">Bijgebouwen hedendaags</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php
 get_footer();

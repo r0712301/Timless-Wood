@@ -11,311 +11,426 @@ Author URI: https://portfolio.yannickvaneck.be/
 
 /* Declaring variables */
 :root {
-    --red: #ef233c;
-    --darkred: #c00424;
-    --platinum: #e5e5e5;
-    --black: #000;
-    --white: #fff;
-    --thumb: #edf2f4;
-  }
+  --red: #ef233c;
+  --darkred: #c00424;
+  --platinum: #e5e5e5;
+  --black: #000;
+  --white: #fff;
+  --thumb: #edf2f4;
+}
 
 /* Main container */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    display: grid;
+
+body {
+  display: grid;
 }
-.main-container{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1822px;
-    justify-content: center;
-    justify-self: start;
-    margin: 0;
-    margin-left: 48px;
-    margin-top: 50px;
-    margin-right: 50px;
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1822px;
+  justify-content: center;
+  justify-self: start;
+  margin: 0;
+  margin-left: 48px;
+  margin-top: 50px;
+  margin-right: 50px;
 }
 
 /* Navigation */
-.header{
-    display: flex;
-    justify-content: space-between;
-    width: 1822px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1822px;
 }
 
-.nav-menu{
-    display: flex;
+.nav-menu {
+  display: flex;
 
 }
 
-nav{
-    display: flex;
-}
-nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    align-items: center;
+nav {
+  display: flex;
 }
 
-nav ul li{
-    display: inline;
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  align-items: center;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: #000;
-    font: normal normal normal 20px/30px Lato;
-    padding: 21px 37px 20px 37px;
-    
+nav ul li {
+  display: inline;
 }
 
-#contact{
-    border: 1px solid #3D3F32;
-    font: normal normal bold 20px/30px Lato;
-    color: #3D3F32;
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font: normal normal normal 20px/30px Lato;
+  padding: 21px 37px 20px 37px;
+
 }
 
-.logo{
-    width: 351px;
-    height: 65px;
-    margin: 0;
+#contact {
+  border: 1px solid #3D3F32;
+  font: normal normal bold 20px/30px Lato;
+  color: #3D3F32;
+}
+
+.logo {
+  width: 351px;
+  height: 65px;
+  margin: 0;
 }
 
 /* Homepage: Hero section*/
 
-.hero-section{
-    display: flex;
-    align-items: flex-end;
-    width: 1822px;
-    height: 865px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/hero.png") ;
-    background-size: cover;
-    margin-top: 50px;
+.hero-section {
+  display: flex;
+  align-items: flex-end;
+  width: 1822px;
+  height: 865px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/hero.png");
+  background-size: cover;
+  margin-top: 50px;
 }
 
-.hero-title-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 846px;
-    margin-left: 49px;
+.hero-title-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 846px;
+  margin-left: 49px;
 }
 
-#hero-title{
-    display: flex;
-    font: normal normal bold 94px/100px Playfair Display;
-    color: #FFF;
-    letter-spacing: 0px;
-    margin-bottom: 35px;
+#hero-title {
+  display: flex;
+  font: normal normal bold 94px/100px Playfair Display;
+  color: #FFF;
+  letter-spacing: 0px;
+  margin-bottom: 35px;
 }
 
-.hero-button-container{
-    display: flex;
-    align-items: center;
-    height: 65px;
-    margin-bottom: 50px;
+.hero-button-container {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  margin-bottom: 50px;
 }
 
-.hero-button{
-    background-color: #fff;
-    border: 1px solid #3D3F32;
-    font: normal normal bold 20px/30px Lato;
-    letter-spacing: 0px;
-    color: #3D3F32;
-    text-decoration: none;
-    
+.hero-button {
+  background-color: #fff;
+  border: 1px solid #3D3F32;
+  font: normal normal bold 20px/30px Lato;
+  letter-spacing: 0px;
+  color: #3D3F32;
+  text-decoration: none;
+
 }
 
-#hero-button-L{
-    padding: 21px 42px 20px 43px;
-    margin-right: 25px;
-}
-#hero-button-R{
-    padding: 21px 47px 20px 48px;
+#hero-button-L {
+  padding: 21px 42px 20px 43px;
+  margin-right: 25px;
 }
 
-#hero-line-vert{
-    display: block;
-    position: relative;
-    right: -33%;
-    top: 129px;
-    width: 258px;
-    rotate: 90deg;
+#hero-button-R {
+  padding: 21px 47px 20px 48px;
+}
+
+#hero-line-vert {
+  display: block;
+  position: relative;
+  right: -33%;
+  top: 129px;
+  width: 258px;
+  rotate: 90deg;
 
 }
 
 /* Homepage: Slogan section*/
 
-.slogan-section{
-    display: flex;
-    flex-wrap: nowrap;
-    min-height: 747px;
-    margin-top: 149px;
+.slogan-section {
+  display: flex;
+  flex-wrap: nowrap;
+  min-height: 747px;
+  margin-top: 149px;
 }
 
-.slogan-image-container{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin-left: -48px;
+.slogan-image-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: -48px;
 }
 
 
-.slogan-image{
-    display: block;
+.slogan-image {
+  display: block;
 }
 
-#gray-box{
-    display: flex;
-    width: 269px;
-    height: 461px;
-    background-color: rgba(0, 0, 0, 0.05);
-    z-index: -1;
+#gray-box-slogan {
+  display: flex;
+  width: 269px;
+  height: 461px;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: -1;
 }
 
-.slogan-text-container{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-items: center;
-    padding-left: 176px;
-    padding-right: 107px;
+.slogan-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-items: center;
+  padding-left: 176px;
+  padding-right: 107px;
 }
 
-.slogan-title{
-    font: normal normal bold 80px/99px Playfair Display;
-    color: #000;
-    letter-spacing: 0;
-    margin-bottom: 53px;
+.slogan-title {
+  font: normal normal bold 80px/99px Playfair Display;
+  color: #000;
+  letter-spacing: 0;
+  margin-bottom: 53px;
 }
 
-.slogan-text{
-    font: normal normal 300 20px/30px Lato;
-    color: #000;
-    letter-spacing: 0;
-    margin-bottom: 53px;
+.slogan-text {
+  font: normal normal 300 20px/30px Lato;
+  color: #000;
+  letter-spacing: 0;
+  margin-bottom: 53px;
 }
 
-.slogan-button{
-    font: normal normal bold 20px/30px Lato;
-    letter-spacing: 0;
-    color: #3D3F32;
-    text-decoration: none;
-    padding: 21px 42px 20px 42px;
-    border: 1px solid #3D3F32;
+.slogan-button {
+  font: normal normal bold 20px/30px Lato;
+  letter-spacing: 0;
+  color: #3D3F32;
+  text-decoration: none;
+  padding: 21px 42px 20px 42px;
+  border: 1px solid #3D3F32;
 }
 
 /* Homepage: Aanbod Carousel*/
 
-.aanbod-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    margin-top: 150px;
-    margin-bottom: 151px;
+.aanbod-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 151px;
 }
 
-.aanbod-title{
-    font: normal normal bold 80px/99px Playfair Display;
-    color: #000;
-    letter-spacing: 0;
-    margin-bottom: 31px;
-    text-align: center;
+.aanbod-title {
+  font: normal normal bold 80px/99px Playfair Display;
+  color: #000;
+  letter-spacing: 0;
+  margin-bottom: 31px;
+  text-align: center;
 }
 
-.aanbod-text{
-    font: normal normal 300 20px/30px Lato;
-    color: #000;
-    letter-spacing: 0;
-    text-align: center;
-    max-width: 862px;
+.aanbod-text {
+  font: normal normal 300 20px/30px Lato;
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  max-width: 862px;
 }
 
-.aanbod-card-carousel{
-    display: flex;
-    width:100%;
-    margin-left: -48px;
-    margin-right: -50px;
-    margin-top: 79px;
+.aanbod-card-carousel {
+  display: flex;
+  width: 100%;
+  margin-left: -48px;
+  margin-right: -50px;
+  margin-top: 79px;
 }
 
 .cards {
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    padding-bottom: 71px;
-  }
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 71px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+}
+
+.cards::-webkit-scrollbar {
+  height: 2px;
+}
+
+.cards:hover::-webkit-scrollbar {
+  height: 3px;
+
+}
+
+.cards::-webkit-scrollbar-thumb,
+.cards::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+  background: var(--black);
+}
+
+.cards::-webkit-scrollbar-track {
+  background: var(--thumb);
+}
+
+@media (min-width: 500px) {
   .card {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 100%;
-    scroll-snap-align: start;
+    flex-basis: calc(50% - 10px);
   }
 
-  .cards::-webkit-scrollbar {
-    height: 2px;
+  .card:not(:last-child) {
+    margin-right: 20px;
   }
-  .cards:hover::-webkit-scrollbar {
-    height: 3px;
+}
 
-  }
-  .cards::-webkit-scrollbar-thumb,
-  .cards::-webkit-scrollbar-track {
-    border-radius: 92px;
-  }
-  .cards::-webkit-scrollbar-thumb {
-    background: var(--black);
-  }
-  .cards::-webkit-scrollbar-track {
-    background: var(--thumb);
-  }
-  @media (min-width: 500px) {
-    .card {
-      flex-basis: calc(50% - 10px);
-    }
-    .card:not(:last-child) {
-      margin-right: 20px;
-    }
-  }
-  @media (min-width: 700px) {
-    .card {
-      flex-basis: calc(calc(100% / 2) - 20px);
-    }
-    .card:not(:last-child) {
-      margin-right: 30px;
-    }
-  }
-  @media (min-width: 1100px) {
-    .card {
-      flex-basis: calc(33% - 30px);
-    }
-    .card:not(:last-child) {
-      margin-right: 40px;
-    }
-  }
-  .card-content{
-    font: normal normal 300 20px/30px Lato;
-    color: #000;
-    letter-spacing: 0;
+@media (min-width: 700px) {
+  .card {
+    flex-basis: calc(calc(100% / 2) - 20px);
   }
 
-  .card-title{
-    font: normal normal 300 30px/30px Lato;
-    text-transform: uppercase;
-    color: #000;
-    letter-spacing: 1.5px;
-    padding-top: 20px;
-    padding-bottom: 5px;
+  .card:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .card {
+    flex-basis: calc(33% - 30px);
   }
 
-.card a{
-    float: right;
-    margin-left: auto;
-    margin-top: -50px;
+  .card:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+.card-content {
+  font: normal normal 300 20px/30px Lato;
+  color: #000;
+  letter-spacing: 0;
+}
+
+.card-title {
+  font: normal normal 300 30px/30px Lato;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 1.5px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.card a {
+  float: right;
+  margin-left: auto;
+  margin-top: -50px;
+}
+
+/* Homepage: Realisaties & Contact */
+
+.realisatie-container {
+  display: flex;
+  margin-right: 213px;
+}
+
+#gray-box-realisatie {
+  display: flex;
+  position: absolute;
+  left: -48px;
+  width: 419px;
+  height: 1188px;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: -1;
+}
+
+.realisatie-foreground-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 104px;
+  align-content: flex-start;
+  margin-left: 165px;
+}
+
+.realisatie-text-btn-conatainer {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 79px;
+}
+
+.realisatie-title {
+  font: normal normal bold 80px/99px Playfair Display;
+  letter-spacing: 0;
+  color: #000;
+  margin-bottom: 17px;
+}
+
+.realisatie-text {
+  font: normal normal 300 20px/30px Lato;
+  color: #000;
+  letter-spacing: 0;
+  max-width: 862px;
+}
+
+.realisatie-btn {
+  font: normal normal bold 20px/30px Lato;
+  color: #3D3F32;
+  padding: 21px 46px 20px 47px;
+  border: 1px solid #3D3F32;
+  text-decoration: none;
+}
+
+.realisatie-cards-conatainer {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+#realisatie-card-L {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/1f5ce17b0ba186e9c1d0604371a4702c.png");
+  margin-right: 40px;
+}
+
+#realisatie-card-R {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/07bc08d2838a915df53908be9ce5ccb4.png");
+  margin-left: 40px;
+}
+
+.realisatie-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  background-size: cover;
+  width: 707px;
+  height: 453px;
+  padding-left: 30px;
+  padding-bottom: 35px;
+}
+
+.realisatie-card-title {
+  color: #fff;
+  font: normal normal bold 20px/30px Lato;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.realisatie-card-btn {
+  font: normal normal bold 15px/23px Lato;
+  color: #3D3F32;
+  background-color: #fff;
+  padding: 4px 17px 5px 14px;
+  text-decoration: none;
 }
