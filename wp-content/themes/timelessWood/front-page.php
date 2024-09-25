@@ -85,6 +85,16 @@ get_header();
     </div>
 </div>
 
+<div class="contact-container">
+    <div class="contact-overlay-container">
+        <h2 class="contact-title">Contact</h2>
+        <p class="contact-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur sollicitudin varius. Vestibulum quis erat aliquet, fermentum tortor at, iaculis lacus.</p>
+        <a href="#" class="contact-btn">Contacteer ons</a>
+    </div>
+</div>
+
+
+
 <?php
 get_footer();
 ?>
