@@ -87,8 +87,132 @@ nav ul li a {
 .logo {
   width: 351px;
   height: 65px;
-  margin: 0;
 }
+
+/* Footer */
+
+.footer-seperator {
+  border-color: rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  margin-left: -48px;
+  margin-right: -33px;
+  margin-top: 151px;
+  margin-bottom: 130.5px;
+}
+
+#under-footer {
+  margin-top: 0;
+  margin-bottom: 19px !important;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 159px;
+  margin-right: 99px;
+}
+
+.footer-contact-title {
+  font: normal normal bold 20px/30px Lato;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.footer-contact-text {
+  font: normal normal 300 20px/30px Lato;
+  letter-spacing: 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-aanbod-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 148px;
+}
+
+.footer-aanbod-title {
+  font: normal normal bold 20px/30px Lato;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.footer-snellelinks-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 77px;
+  margin-left: 99px;
+}
+
+.footer-snellelinks-title {
+  font: normal normal bold 20px/30px Lato;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.footer-link {
+  text-align: left;
+  font: normal normal 300 20px/30px Lato;
+  letter-spacing: 0;
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+.footer-social-link {
+  border: 2px solid #3D3F32;
+  border-radius: 50%;
+
+}
+
+#fb {
+  padding: 25px 18px 25px 17px;
+  margin-right: 8.5px;
+}
+
+#insta {
+  padding: 25px 12px 25px 13px;
+  margin-left: 8.5px;
+}
+
+.copy-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20.5px;
+}
+
+.copy {
+  font: normal normal 300 18px/22px Lato;
+  color: #000;
+  letter-spacing: 0;
+}
+
+.privacy {
+  font: normal normal 300 18px/22px Lato;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
 
 /* Homepage: Hero section*/
 
@@ -442,6 +566,7 @@ nav ul li a {
   background-image: url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/059c7ba0c51769aacdc7fb21d41aff06.png");
   background-size: cover;
   margin-bottom: 122px;
+  padding-bottom: 75px;
 }
 
 .contact-overlay-container {
