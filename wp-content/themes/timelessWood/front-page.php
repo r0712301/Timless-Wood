@@ -93,6 +93,33 @@ get_header();
     </div>
 </div>
 
+<div class="boeken-container">
+    <h2 class="boek-title">Boeken</h2>
+    <div class="boeken">
+        <div class="boek-card">
+            <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/e6fc4f81f23823d0402b4f52d6489f9f.png" alt="" class="boek-img">
+            <div class="boek-card-content">
+                <div class="boek-card-header">
+                    <h3 class="boek-card-title">SFEERBOEK BARN LIFE</h3>
+                    <h4 class="boek-card-price">€ 55,99</h4>
+                </div>
+                <p class="boek-card-text">Barn life toont schitterende poolhouses en fraaie bijgebouwen, al laat het vooral zien hoe creatieve geesten zich echt kunnen ontplooien in zo’n inspirerende omgeving…</p>
+                <a href="#" class="boek-card-link">Bestel nu</a>
+            </div>
+        </div>
+        <div class="boek-card">
+            <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/8ca4d84228f41fb1fde2504789e2cc6d.png" alt="" class="boek-img">
+            <div class="boek-card-content">
+                <div class="boek-card-header">
+                    <h3 class="boek-card-title">OVERZICHTS- BOEK</h3>
+                    <h4 class="boek-card-price">€ 47,00</h4>
+                </div>
+                <p class="boek-card-text">Een boek met exclusieve en duurzame bijgebouwen, zoals carports, poolhouses, tuinschuren, terrassen, poorten, … Auteur Tine Verdickt beschrijft de ambachtelijke wijze waarop al deze creaties…</p>
+                <a href="#" class="boek-card-link">Bestel nu</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php
