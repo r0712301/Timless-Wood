@@ -10,6 +10,14 @@ Author URI: https://portfolio.yannickvaneck.be/
 
 
 /* Declaring variables */
+:root {
+    --red: #ef233c;
+    --darkred: #c00424;
+    --platinum: #e5e5e5;
+    --black: #000;
+    --white: #fff;
+    --thumb: #edf2f4;
+  }
 
 /* Main container */
 *{
@@ -68,8 +76,9 @@ nav ul li a{
 }
 
 #contact{
-    border: 1px solid #000;
+    border: 1px solid #3D3F32;
     font: normal normal bold 20px/30px Lato;
+    color: #3D3F32;
 }
 
 .logo{
@@ -114,10 +123,10 @@ nav ul li a{
 
 .hero-button{
     background-color: #fff;
-    border: 1px solid #000;
+    border: 1px solid #3D3F32;
     font: normal normal bold 20px/30px Lato;
     letter-spacing: 0px;
-    color: #000;
+    color: #3D3F32;
     text-decoration: none;
     
 }
@@ -128,4 +137,185 @@ nav ul li a{
 }
 #hero-button-R{
     padding: 21px 47px 20px 48px;
+}
+
+#hero-line-vert{
+    display: block;
+    position: relative;
+    right: -33%;
+    top: 129px;
+    width: 258px;
+    rotate: 90deg;
+
+}
+
+/* Homepage: Slogan section*/
+
+.slogan-section{
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 747px;
+    margin-top: 149px;
+}
+
+.slogan-image-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: -48px;
+}
+
+
+.slogan-image{
+    display: block;
+}
+
+#gray-box{
+    display: flex;
+    width: 269px;
+    height: 461px;
+    background-color: rgba(0, 0, 0, 0.05);
+    z-index: -1;
+}
+
+.slogan-text-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: center;
+    padding-left: 176px;
+    padding-right: 107px;
+}
+
+.slogan-title{
+    font: normal normal bold 80px/99px Playfair Display;
+    color: #000;
+    letter-spacing: 0;
+    margin-bottom: 53px;
+}
+
+.slogan-text{
+    font: normal normal 300 20px/30px Lato;
+    color: #000;
+    letter-spacing: 0;
+    margin-bottom: 53px;
+}
+
+.slogan-button{
+    font: normal normal bold 20px/30px Lato;
+    letter-spacing: 0;
+    color: #3D3F32;
+    text-decoration: none;
+    padding: 21px 42px 20px 42px;
+    border: 1px solid #3D3F32;
+}
+
+/* Homepage: Aanbod Carousel*/
+
+.aanbod-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 151px;
+}
+
+.aanbod-title{
+    font: normal normal bold 80px/99px Playfair Display;
+    color: #000;
+    letter-spacing: 0;
+    margin-bottom: 31px;
+    text-align: center;
+}
+
+.aanbod-text{
+    font: normal normal 300 20px/30px Lato;
+    color: #000;
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 862px;
+}
+
+.aanbod-card-carousel{
+    display: flex;
+    width:100%;
+    margin-left: -48px;
+    margin-right: -50px;
+    margin-top: 79px;
+}
+
+.cards {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 71px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+
+  .cards::-webkit-scrollbar {
+    height: 2px;
+  }
+  .cards:hover::-webkit-scrollbar {
+    height: 3px;
+
+  }
+  .cards::-webkit-scrollbar-thumb,
+  .cards::-webkit-scrollbar-track {
+    border-radius: 92px;
+  }
+  .cards::-webkit-scrollbar-thumb {
+    background: var(--black);
+  }
+  .cards::-webkit-scrollbar-track {
+    background: var(--thumb);
+  }
+  @media (min-width: 500px) {
+    .card {
+      flex-basis: calc(50% - 10px);
+    }
+    .card:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  @media (min-width: 700px) {
+    .card {
+      flex-basis: calc(calc(100% / 2) - 20px);
+    }
+    .card:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  @media (min-width: 1100px) {
+    .card {
+      flex-basis: calc(33% - 30px);
+    }
+    .card:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  .card-content{
+    font: normal normal 300 20px/30px Lato;
+    color: #000;
+    letter-spacing: 0;
+  }
+
+  .card-title{
+    font: normal normal 300 30px/30px Lato;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 1.5px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+.card a{
+    float: right;
+    margin-left: auto;
+    margin-top: -50px;
 }
