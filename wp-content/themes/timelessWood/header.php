@@ -20,7 +20,7 @@
                 <nav>
                     <ul>
                         <li><a href="#">Aanbod</a></li>
-                        <li><a href="#">Over ons</a></li>
+                        <li><a href="/over-ons">Over ons</a></li>
                         <li><a href="#">Realisaties</a></li>
                         <li><a id="contact" href="#">Contact</a></li>
                     </ul>
