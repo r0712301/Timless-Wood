@@ -19,6 +19,17 @@ Author URI: https://portfolio.yannickvaneck.be/
   --thumb: #edf2f4;
 }
 
+/* .fa-solid,
+.fas {
+  font-weight: 100 !important;
+}
+
+.fa-2xl {
+  font-size: 3em !important;
+  line-height: 1em !important;
+  vertical-align: -0.375em !important;
+} */
+
 /* Main container */
 * {
   margin: 0;
@@ -820,7 +831,7 @@ footer {
   display: flex;
   width: 100vw;
   margin-left: -48px;
-  margin-right: -50px;
+  margin-right: -33px;
   background-color: rgba(0, 0, 0, 0.05);
   padding: 100px 0px 100px 100px;
 }
@@ -916,29 +927,68 @@ footer {
 
 /* Container around content */
 .over-ons-werken-timeline-container {
-  padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 45%;
 }
 
+
 /* The circles on the timeline */
 .over-ons-werken-timeline-container::after {
   content: '';
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: #000;
-  border: 4px solid #FF9F55;
-  top: 15px;
+  width: 22px;
+  height: 22px;
+  right: -13px;
+  border: 2px solid #FFF;
+  top: 30%;
   border-radius: 50%;
   z-index: 1;
 }
 
+#over-ons-werken-timeline-1::after {
+  background-color: #F7E1AC;
+}
+
+#over-ons-werken-timeline-2::after {
+  background-color: #515C15;
+}
+
+#over-ons-werken-timeline-3::after {
+  background-color: #836212;
+}
+
+#over-ons-werken-timeline-4::after {
+  background-color: #000000;
+}
+
+#over-ons-werken-timeline-5::after {
+  background-color: #515C15;
+}
+
+#over-ons-werken-timeline-1 .over-ons-werken-timeline-content {
+  background-color: #FFFCF7;
+}
+
+#over-ons-werken-timeline-2 .over-ons-werken-timeline-content {
+  background-color: #EDEEE7;
+}
+
+#over-ons-werken-timeline-3 .over-ons-werken-timeline-content {
+  background-color: #F2EFE6;
+}
+
+#over-ons-werken-timeline-4 .over-ons-werken-timeline-content {
+  background-color: #F2F2F2;
+}
+
+#over-ons-werken-timeline-5 .over-ons-werken-timeline-content {
+  background-color: #EDEEE7;
+}
+
 /* Place the container to the left */
 .left {
-  left: 10px;
+  left: 5%;
 }
 
 /* Place the container to the right */
@@ -946,45 +996,15 @@ footer {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #3D3F32;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #3D3F32;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #3D3F32;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #3D3F32 transparent transparent;
-}
-
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -13px;
 }
 
 /* The actual content */
 .over-ons-werken-timeline-content {
-  padding: 20px 30px;
-  background-color: #8362121a;
+  padding: 24px 32px;
   position: relative;
-  border-radius: 6px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -1020,4 +1040,32 @@ footer {
   .right {
     left: 0%;
   }
+}
+
+.over-ons-werken-timeline-title-icon-container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.over-ons-werken-timeline-title {
+  font: normal normal 300 30px/30px Lato;
+  letter-spacing: 1.5px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.over-ons-werken-timeline-text {
+  font: normal normal 300 18px/30px Lato;
+  letter-spacing: 0;
+  color: #000;
+  max-width: 617px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.over-ons-werken-timeline-foto {
+  width: 617px;
+  height: auto;
 }

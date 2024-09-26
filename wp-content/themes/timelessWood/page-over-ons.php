@@ -50,16 +50,54 @@ get_header();
     <h2 class="over-ons-werken-title">Hoe werken wij</h2>
     <p class="over-ons-werken-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur sollicitudin varius. Vestibulum quis erat aliquet, fermentum tortor at, iaculis lacus.</p>
     <div class="over-ons-werken-timeline">
-        <div class="over-ons-werken-timeline-container right">
+        <div id="over-ons-werken-timeline-1" class="over-ons-werken-timeline-container right">
             <div class="over-ons-werken-timeline-content">
-                <h2>2017</h2>
-                <p>Lorem ipsum..</p>
+                <div class="over-ons-werken-timeline-title-icon-container">
+                    <h3 class="over-ons-werken-timeline-title">INTAKE</h3>
+                    <p><i id="over-ons-werken-timeline-icon-1" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
+                </div>
+                <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <img id="over-ons-werken-timeline-foto-1" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
             </div>
         </div>
-        <div class="over-ons-werken-timeline-container left">
+        <div id="over-ons-werken-timeline-2" class="over-ons-werken-timeline-container left">
             <div class="over-ons-werken-timeline-content">
-                <h2>2016</h2>
-                <p>Lorem ipsum..</p>
+                <div class="over-ons-werken-timeline-title-icon-container">
+                    <h3 class="over-ons-werken-timeline-title">OFFERTE</h3>
+                    <p><i id="over-ons-werken-timeline-icon-2" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
+                </div>
+                <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <img id="over-ons-werken-timeline-foto-2" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
+            </div>
+        </div>
+        <div id="over-ons-werken-timeline-3" class="over-ons-werken-timeline-container right">
+            <div class="over-ons-werken-timeline-content">
+                <div class="over-ons-werken-timeline-title-icon-container">
+                    <h3 class="over-ons-werken-timeline-title">GOEDKEURING</h3>
+                    <p><i id="over-ons-werken-timeline-icon-3" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
+                </div>
+                <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <img id="over-ons-werken-timeline-foto-3" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
+            </div>
+        </div>
+        <div id="over-ons-werken-timeline-4" class="over-ons-werken-timeline-container left">
+            <div class="over-ons-werken-timeline-content">
+                <div class="over-ons-werken-timeline-title-icon-container">
+                    <h3 class="over-ons-werken-timeline-title">UITVOERING</h3>
+                    <p><i id="over-ons-werken-timeline-icon-4" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
+                </div>
+                <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <img id="over-ons-werken-timeline-foto-4" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
+            </div>
+        </div>
+        <div id="over-ons-werken-timeline-5" class="over-ons-werken-timeline-container right">
+            <div class="over-ons-werken-timeline-content">
+                <div class="over-ons-werken-timeline-title-icon-container">
+                    <h3 class="over-ons-werken-timeline-title">NAZORG</h3>
+                    <p><i id="over-ons-werken-timeline-icon-5" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
+                </div>
+                <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                <img id="over-ons-werken-timeline-foto-5" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
             </div>
         </div>
     </div>
