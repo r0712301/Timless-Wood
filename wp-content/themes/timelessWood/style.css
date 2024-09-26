@@ -19,16 +19,6 @@ Author URI: https://portfolio.yannickvaneck.be/
   --thumb: #edf2f4;
 }
 
-/* .fa-solid,
-.fas {
-  font-weight: 100 !important;
-}
-
-.fa-2xl {
-  font-size: 3em !important;
-  line-height: 1em !important;
-  vertical-align: -0.375em !important;
-} */
 
 /* Main container */
 * {
@@ -44,9 +34,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: 1822px;
-  justify-content: center;
-  justify-self: start;
-  margin: 0;
   margin-left: 48px;
   margin-top: 50px;
   margin-right: 50px;
@@ -281,7 +268,7 @@ footer {
 #hero-line-vert {
   display: block;
   position: relative;
-  right: -33%;
+  right: -75.5%;
   top: 129px;
   width: 258px;
   rotate: 90deg;
@@ -757,7 +744,7 @@ footer {
 #over-ons-hero-line-vert {
   display: block;
   position: relative;
-  right: -33%;
+  right: -79%;
   top: -86px;
   width: 129px;
   rotate: 90deg;
@@ -1068,4 +1055,70 @@ footer {
 .over-ons-werken-timeline-foto {
   width: 617px;
   height: auto;
+}
+
+.realisatie-page-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-left: 165px;
+}
+
+.realisatie-container-gray {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 419px;
+  height: 2829px;
+  left: 0;
+  top: 197px;
+}
+
+.realisatie-page-title {
+  font: normal normal bold 80px/99px Playfair Display;
+  letter-spacing: 0;
+  color: #000;
+}
+
+.realisatie-page-text {
+  font: normal normal 300 20px/30px Lato;
+  letter-spacing: 0;
+  color: #000;
+  margin-top: 17px;
+  margin-bottom: 150px;
+  max-width: 862px;
+}
+
+.realisatie-page-cards-conatainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.realisatie-page-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  background-size: cover;
+  width: 707px;
+  height: 453px;
+  padding-left: 30px;
+  padding-bottom: 35px;
+}
+
+.realisatie-page-card-title {
+  color: #fff;
+  font: normal normal bold 20px/30px Lato;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.realisatie-page-card-btn {
+  font: normal normal bold 15px/23px Lato;
+  color: #3D3F32;
+  background-color: #fff;
+  padding: 4px 17px 5px 14px;
+  text-decoration: none;
 }

@@ -1,11 +1,16 @@
 var elements = [1, 2, 3, 4, 5];
 
-elements.forEach(element => {
-    img = document.getElementById('over-ons-werken-timeline-' + element);
-    img.addEventListener('click', function () {
-        toggleImg(element);
-    })
-});
+try {
+    elements.forEach(element => {
+        img = document.getElementById('over-ons-werken-timeline-' + element);
+        img.addEventListener('click', function () {
+            toggleImg(element);
+        })
+    });
+} catch (error) {
+    console.log(error);
+}
+
 
 function toggleImg(id) {
     var imgId = "over-ons-werken-timeline-foto-" + id;
