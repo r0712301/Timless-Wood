@@ -274,7 +274,7 @@ footer {
   top: 129px;
   width: 258px;
   rotate: 90deg;
-
+  border-color: #707070;
 }
 
 /* Homepage: Slogan section*/
@@ -690,4 +690,334 @@ footer {
   font: normal normal bold 18px/30px Lato;
   letter-spacing: 0;
   color: #3D3F32;
+}
+
+/* Over ons: hero section */
+
+.over-ons-hero-container {
+  display: flex;
+  width: 100%;
+  max-height: 785px;
+  background-image: url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/391528f69fb6cad8a4f341f076955ee5.png");
+  background-size: cover;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.over-ons-hero-overlay-container {
+  display: flex;
+  position: relative;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 912px;
+  height: 785px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 67px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.over-ons-hero-title {
+  font: normal normal bold 80px/99px Playfair Display;
+  letter-spacing: 0;
+  color: #000;
+}
+
+.over-ons-hero-text {
+  font: normal normal 300 20px/30px Lato;
+  letter-spacing: 0;
+  color: #000;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  max-width: 514px;
+}
+
+.over-ons-hero-btn {
+  font: normal normal bold 20px/30px Lato;
+  color: #3D3F32;
+  border: 1px solid #3D3F32;
+  background-color: #fff;
+  opacity: 1 !important;
+  padding: 21px 49px 20px 50px;
+  text-decoration: none;
+}
+
+#over-ons-hero-line-vert {
+  display: block;
+  position: relative;
+  right: -33%;
+  top: -86px;
+  width: 129px;
+  rotate: 90deg;
+  border-color: #707070;
+  border-width: 1px;
+}
+
+/* Over ons: waarden */
+
+.over-ons-waarden-container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 32px;
+  margin-bottom: 150px;
+}
+
+.over-ons-waarde-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 424px;
+  height: 390px;
+  padding: 24px 24px 18px 24px;
+  justify-content: space-between;
+}
+
+#over-ons-waarde-1 {
+  background-color: #F2F2F2;
+}
+
+#over-ons-waarde-2 {
+  background-color: #515c151a;
+}
+
+#over-ons-waarde-3 {
+  background-color: #F7E1AC1a;
+}
+
+#over-ons-waarde-4 {
+  background-color: #8362121a;
+}
+
+.over-ons-waarde-icon {
+  width: 70px;
+  height: auto;
+}
+
+.over-ons-waarde-title {
+  font: normal normal bold 30px/36px Lato;
+  letter-spacing: 1.5px;
+  color: #000;
+}
+
+.over-ons-waarde-text {
+  font: normal normal 300 18px/30px Lato;
+  letter-spacing: 0;
+  color: #000;
+}
+
+/* Over ons: Ontmoet het team */
+
+.over-ons-team-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.over-ons-team-title-container {
+  display: flex;
+  width: 100vw;
+  margin-left: -48px;
+  margin-right: -50px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 100px 0px 100px 100px;
+}
+
+.over-ons-team-title {
+  font: normal normal bold 80px/99px Playfair Display;
+  letter-spacing: 0;
+  color: #000;
+}
+
+.over-ons-team-text-foto-container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 64px;
+}
+
+.over-ons-team-foto {
+  display: flex;
+  width: 878px;
+  height: auto;
+  transform: translate(0px, -199px);
+}
+
+.over-ons-team-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 44px;
+  align-content: flex-start;
+}
+
+.over-ons-team-text {
+  font: normal normal 300 18px/30px Lato;
+  letter-spacing: 0;
+  color: #000;
+  margin-bottom: 63px;
+}
+
+.over-ons-team-btn {
+  font: normal normal bold 20px/30px Lato;
+  letter-spacing: 0;
+  color: #3D3F32;
+  padding: 20px 55px 20px 42px;
+  border: 1px solid #3D3F32;
+  text-decoration: none;
+}
+
+/* Over ons: Hoe werken wij */
+
+.over-ons-werken-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.over-ons-werken-title {
+  font: normal normal bold 80px/99px Playfair Display;
+  letter-spacing: 0;
+  color: #000;
+  margin-bottom: 31px;
+  text-align: center;
+}
+
+.over-ons-werken-text {
+  font: normal normal 300 20px/30px Lato;
+  letter-spacing: 0;
+  color: #000;
+  max-width: 50%;
+  text-align: center;
+  margin-bottom: 67px;
+}
+
+.over-ons-werken-timeline {
+  position: relative;
+  width: 100%;
+}
+
+/* The actual timeline (the vertical ruler) */
+.over-ons-werken-timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.over-ons-werken-timeline-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 45%;
+}
+
+/* The circles on the timeline */
+.over-ons-werken-timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #000;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 10px;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #3D3F32;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #3D3F32;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #3D3F32;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #3D3F32 transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.over-ons-werken-timeline-content {
+  padding: 20px 30px;
+  background-color: #8362121a;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+  /* Place the timelime to the left */
+  .over-ons-werken-timeline::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .over-ons-werken-timeline-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .over-ons-werken-timeline-container::before {
+    left: 60px;
+    border: medium solid #3D3F32;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #3D3F32 transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
 }
