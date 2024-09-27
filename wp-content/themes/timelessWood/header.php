@@ -15,13 +15,13 @@
     <!-- main container start -->
     <div class="main-container">
         <div class="header">
-            <div><img class="logo" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/logo.png" alt="Logo"></div>
+            <a href="/"><img class="logo" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/logo.png" alt="Logo"></a>
             <div class="nav-menu">
                 <nav>
                     <ul>
-                        <li><a href="#">Aanbod</a></li>
+                        <li><a href="/#aanbod">Aanbod</a></li>
                         <li><a href="/over-ons">Over ons</a></li>
-                        <li><a href="#">Realisaties</a></li>
+                        <li><a href="/realisaties">Realisaties</a></li>
                         <li><a id="contact" href="#">Contact</a></li>
                     </ul>
                 </nav>

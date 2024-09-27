@@ -24,7 +24,7 @@ get_header();
     </div>
 </div>
 
-<div class="aanbod-container">
+<div id="aanbod" class="aanbod-container">
     <div>
         <h2 class="aanbod-title">Aanbod</h2>
         <p class="aanbod-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur sollicitudin varius. Vestibulum quis erat aliquet, fermentum tortor at, iaculis lacus.</p>
