@@ -10,7 +10,7 @@ get_header();
         </div>
     </div>
 </div>
-<hr id="hero-line-vert">
+
 
 <div class="slogan-section">
     <div class="slogan-image-container">
@@ -24,7 +24,7 @@ get_header();
     </div>
 </div>
 
-<div class="aanbod-container">
+<div id="aanbod" class="aanbod-container">
     <div>
         <h2 class="aanbod-title">Aanbod</h2>
         <p class="aanbod-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur sollicitudin varius. Vestibulum quis erat aliquet, fermentum tortor at, iaculis lacus.</p>
@@ -62,22 +62,22 @@ get_header();
     <div id="gray-box-realisatie"></div>
     <div class="realisatie-foreground-container">
         <h2 class="realisatie-title">Realisaties</h2>
-        <div class="realisatie-text-btn-conatainer">
+        <div class="realisatie-text-btn-container">
             <p class="realisatie-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur sollicitudin varius. Vestibulum quis erat aliquet, fermentum tortor at, iaculis lacus.</p>
-            <a href="" class="realisatie-btn">Bekijk meer</a>
+            <a href="/realisaties" class="realisatie-btn">Bekijk meer</a>
         </div>
-        <div class="realisatie-cards-conatainer">
+        <div class="realisatie-cards-container">
             <div id="realisatie-card-L" class="realisatie-card">
                 <div>
                     <h3 class="realisatie-card-title">NJOYIN THE POOL - ZOERSEL</h3>
-                    <a href="" class="realisatie-card-btn">Terrasbouw</a>
+                    <a class="realisatie-card-btn">Terrasbouw</a>
                 </div>
 
             </div>
             <div id="realisatie-card-R" class="realisatie-card">
                 <div>
                     <h3 class="realisatie-card-title">ENJOY YOUR STAY!</h3>
-                    <a href="" class="realisatie-card-btn">Bijgebouwen hedendaags</a>
+                    <a class="realisatie-card-btn">Bijgebouwen hedendaags</a>
                 </div>
 
             </div>
@@ -101,7 +101,7 @@ get_header();
             <div class="boek-card-content">
                 <div class="boek-card-header">
                     <h3 class="boek-card-title">SFEERBOEK BARN LIFE</h3>
-                    <h4 class="boek-card-price">€ 55,99</h4>
+                    <h4 class="boek-card-price">€55,99</h4>
                 </div>
                 <p class="boek-card-text">Barn life toont schitterende poolhouses en fraaie bijgebouwen, al laat het vooral zien hoe creatieve geesten zich echt kunnen ontplooien in zo’n inspirerende omgeving…</p>
                 <a href="#" class="boek-card-link">Bestel nu</a>
@@ -112,7 +112,7 @@ get_header();
             <div class="boek-card-content">
                 <div class="boek-card-header">
                     <h3 class="boek-card-title">OVERZICHTS- BOEK</h3>
-                    <h4 class="boek-card-price">€ 47,00</h4>
+                    <h4 class="boek-card-price">€47,00</h4>
                 </div>
                 <p class="boek-card-text">Een boek met exclusieve en duurzame bijgebouwen, zoals carports, poolhouses, tuinschuren, terrassen, poorten, … Auteur Tine Verdickt beschrijft de ambachtelijke wijze waarop al deze creaties…</p>
                 <a href="#" class="boek-card-link">Bestel nu</a>
