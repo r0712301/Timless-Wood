@@ -8,7 +8,7 @@ $name = get_field('naam');
 $content = get_field('uitleg');
 ?>
 <div class="single-realisatie-container">
-    <a href="" class="single-realisatie-goback-link" onclick="goBack()"><i class="fa-solid fa-arrow-left-long"></i> Terug naar overzicht</a>
+    <a href="/realisaties" class="single-realisatie-goback-link"><i class="fa-solid fa-arrow-left-long"></i> Terug naar overzicht</a>
     <div class="single-realisatie-content-conainer">
         <div class="single-realisatie-title-container">
             <h1 class="single-realisatie-title"><?php echo esc_html($name); ?></h1>

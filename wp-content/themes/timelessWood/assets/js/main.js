@@ -1,3 +1,11 @@
+// Navigation toggle
+
+function toggleMenu() {
+    const menu = document.querySelector('.nav-menu');
+    menu.classList.toggle('active');
+}
+
+
 // Timeline toggle
 
 var elements = [1, 2, 3, 4, 5];
@@ -31,12 +39,6 @@ function toggleImg(id) {
         img.style.display = "none";
         icon.classList.replace("fa-minus", "fa-plus");
     }
-}
-
-// go back button
-
-function goBack() {
-    window.history.back();
 }
 
 // realisatie filter

@@ -28,7 +28,7 @@ $the_query = new WP_Query($args);
             </button>
         <?php endforeach; ?>
     </div>
-    <div class="realisatie-page-cards-conatainer">
+    <div class="realisatie-page-cards-container">
         <?php
         if ($the_query->have_posts()):
             while ($the_query->have_posts()) : $the_query->the_post();
@@ -42,18 +42,18 @@ $the_query = new WP_Query($args);
                 }, $post_categories);
                 $post_class = implode(' ', $post_classes);
         ?>
-                <div class="realisatie-page-card <?php echo esc_attr($post_class); ?>" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('<?php echo esc_url($img['url']); ?>');">
-                    <div>
-                        <h3 class="realisatie-page-card-title"><?php echo $locatie ? $title . " - " . $locatie : $title ?></h3>
-                        <div class="realisatie-tag-container">
-                            <?php foreach ($categories as $category) : ?>
-                                <a class="realisatie-page-card-btn"><?php echo esc_html($category->name) ?></a>
-                            <?php endforeach; ?>
+                <a href="<?php esc_html(the_permalink()) ?>" class="realisatie-page-card-link">
+                    <div class="realisatie-page-card <?php echo esc_attr($post_class); ?>" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('<?php echo esc_url($img['url']); ?>');">
+                        <div>
+                            <h3 class="realisatie-page-card-title"><?php echo $locatie ? $title . " - " . $locatie : $title ?></h3>
+                            <div class="realisatie-tag-container">
+                                <?php foreach ($categories as $category) : ?>
+                                    <p class="realisatie-page-card-btn"><?php echo esc_html($category->name) ?></p>
+                                <?php endforeach; ?>
+                            </div>
                         </div>
-
                     </div>
-
-                </div>
+                </a>
         <?php
 
             endwhile;
