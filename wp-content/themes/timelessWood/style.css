@@ -1075,6 +1075,26 @@ footer {
   top: 197px;
 }
 
+.realisatie-filter-container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 64px;
+}
+
+.realisatie-filter-btn {
+  font: normal normal bold 20px/30px Lato;
+  background-color: #fff;
+  padding: 20px 33px;
+  color: #3D3F32;
+  border: 1px solid #3D3F32;
+}
+
+.realisatie-filter-btn.active {
+  background-color: #3D3F33;
+  color: #fff;
+}
+
 .realisatie-page-title {
   font: normal normal bold 80px/99px Playfair Display;
   letter-spacing: 0;
@@ -1094,9 +1114,9 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
   margin-bottom: 150px;
-  gap: 34px;
+  row-gap: 32px;
+  column-gap: 34px;
 }
 
 .realisatie-page-card {
