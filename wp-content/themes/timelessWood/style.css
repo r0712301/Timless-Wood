@@ -343,7 +343,7 @@ footer {
   justify-content: flex-start;
   width: 100%;
   height: 85vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/hero.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/wp-content/themes/timelessWood/assets/images/hero.png");
   background-size: cover;
   background-position: center;
   margin-top: 50px;
@@ -836,12 +836,12 @@ footer {
 
 /* Left Card */
 #realisatie-card-L {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/1f5ce17b0ba186e9c1d0604371a4702c.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/wp-content/themes/timelessWood/assets/images/1f5ce17b0ba186e9c1d0604371a4702c.png");
 }
 
 /* Right Card */
 #realisatie-card-R {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/07bc08d2838a915df53908be9ce5ccb4.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/wp-content/themes/timelessWood/assets/images/07bc08d2838a915df53908be9ce5ccb4.png");
 }
 
 /* Card Styling */
@@ -970,7 +970,7 @@ footer {
   display: flex;
   width: 100%;
   height: 785px;
-  background-image: url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/059c7ba0c51769aacdc7fb21d41aff06.png");
+  background-image: url("/wp-content/themes/timelessWood/assets/images/059c7ba0c51769aacdc7fb21d41aff06.png");
   background-size: cover;
   background-position: center;
   margin-bottom: 122px;
@@ -1339,7 +1339,7 @@ footer {
   display: flex;
   width: 100%;
   max-height: 785px;
-  background-image: url("http://sollicitatiewebit.local/wp-content/uploads/2024/09/391528f69fb6cad8a4f341f076955ee5.png");
+  background-image: url("/wp-content/themes/timelessWood/assets/images/391528f69fb6cad8a4f341f076955ee5.png");
   background-size: cover;
   margin-bottom: 150px;
   margin-top: 50px;

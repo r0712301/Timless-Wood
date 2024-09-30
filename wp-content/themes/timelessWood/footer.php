@@ -1,6 +1,6 @@
 <hr class="footer-seperator">
 <footer>
-    <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/logo.png" alt="logo" class="logo">
+    <img src="/wp-content/themes/timelessWood/assets/images/logo.png" alt="logo" class="logo">
     <div class="footer-contact-container">
         <h5 class="footer-contact-title">CONTACT</h5>
         <p class="footer-contact-text">Brasschaatsteenweg 104<br> 2920 Kalmthout</p>

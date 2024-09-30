@@ -15,7 +15,7 @@
     <!-- main container start -->
     <div class="main-container">
         <div class="header">
-            <a href="/"><img class="logo" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/logo.png" alt="Logo"></a>
+            <a href="/"><img class="logo" src="/wp-content/themes/timelessWood/assets/images/logo.png" alt="Logo"></a>
             <span class="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></span>
             <div class="nav-menu">
                 <nav>

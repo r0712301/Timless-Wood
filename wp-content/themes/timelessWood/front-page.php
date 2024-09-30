@@ -15,7 +15,7 @@ get_header();
 <div class="slogan-section">
     <div class="slogan-image-container">
         <div id="gray-box-slogan"></div>
-        <img class="slogan-image" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/passie.png" alt="houtbewerking">
+        <img class="slogan-image" src="/wp-content/themes/timelessWood/assets/images/passie.png" alt="houtbewerking">
     </div>
     <div class="slogan-text-container">
         <h2 class="slogan-title">“Bouwen met hout, een pure passie”</h2>
@@ -32,25 +32,25 @@ get_header();
     <div class="aanbod-card-carousel">
         <ul class="cards">
             <li class="card">
-                <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/4fb67c488a60e987777515c229f005c6.png" alt="" class="card-image">
+                <img src="/wp-content/themes/timelessWood/assets/images/4fb67c488a60e987777515c229f005c6.png" alt="" class="card-image">
                 <h3 class="card-title">Bijgebouwen</h3>
                 <p class="card-content">Outdoor living in harmonie met tuin en omgeving</p>
                 <a href="#"><i class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></a>
             </li>
             <li class="card">
-                <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/0324383de8bd8dc28d21e60df456a3ab.png" alt="" class="card-image">
+                <img src="/wp-content/themes/timelessWood/assets/images/0324383de8bd8dc28d21e60df456a3ab.png" alt="" class="card-image">
                 <h3 class="card-title">Terrasbouw</h3>
                 <p class="card-content">Genieten in eigen tuin</p>
                 <a href="#"><i class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></a>
             </li>
             <li class="card">
-                <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/8027b691796fe06c7e901dea10fdf892.png" alt="" class="card-image">
+                <img src="/wp-content/themes/timelessWood/assets/images/8027b691796fe06c7e901dea10fdf892.png" alt="" class="card-image">
                 <h3 class="card-title">Poorten</h3>
                 <p class="card-content">Stijlvolle inkom als eerste indruk</p>
                 <a href="#"><i class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></a>
             </li>
             <li class="card">
-                <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/45e3bec10d23a58255420dbf3c412f1b.png" alt="" class="card-image">
+                <img src="/wp-content/themes/timelessWood/assets/images/45e3bec10d23a58255420dbf3c412f1b.png" alt="" class="card-image">
                 <h3 class="card-title">Project & interior</h3>
                 <p class="card-content">Massief houten creaties</p>
                 <a href="#"><i class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></a>
@@ -97,7 +97,7 @@ get_header();
     <h2 class="boek-title">Boeken</h2>
     <div class="boeken">
         <div class="boek-card">
-            <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/e6fc4f81f23823d0402b4f52d6489f9f.png" alt="" class="boek-img">
+            <img src="/wp-content/themes/timelessWood/assets/images/e6fc4f81f23823d0402b4f52d6489f9f.png" alt="" class="boek-img">
             <div class="boek-card-content">
                 <div class="boek-card-header">
                     <h3 class="boek-card-title">SFEERBOEK BARN LIFE</h3>
@@ -108,7 +108,7 @@ get_header();
             </div>
         </div>
         <div class="boek-card">
-            <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/8ca4d84228f41fb1fde2504789e2cc6d.png" alt="" class="boek-img">
+            <img src="/wp-content/themes/timelessWood/assets/images/8ca4d84228f41fb1fde2504789e2cc6d.png" alt="" class="boek-img">
             <div class="boek-card-content">
                 <div class="boek-card-header">
                     <h3 class="boek-card-title">OVERZICHTS- BOEK</h3>

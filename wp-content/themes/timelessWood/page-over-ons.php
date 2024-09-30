@@ -12,22 +12,22 @@ get_header();
 
 <div class="over-ons-waarden-container">
     <div id="over-ons-waarde-1" class="over-ons-waarde-container">
-        <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Layer_2.png" alt="" class="over-ons-waarde-icon">
+        <img src="/wp-content/themes/timelessWood/assets/images/Layer_2.png" alt="" class="over-ons-waarde-icon">
         <h3 class="over-ons-waarde-title">Bouwen met hout<br>Een pure passie</h3>
         <p class="over-ons-waarde-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
     </div>
     <div id="over-ons-waarde-2" class="over-ons-waarde-container">
-        <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Layer_3.png" alt="" class="over-ons-waarde-icon">
+        <img src="/wp-content/themes/timelessWood/assets/images/Layer_3.png" alt="" class="over-ons-waarde-icon">
         <h3 class="over-ons-waarde-title">Vakmanschap</h3>
         <p class="over-ons-waarde-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
     </div>
     <div id="over-ons-waarde-3" class="over-ons-waarde-container">
-        <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Layer_4.png" alt="" class="over-ons-waarde-icon">
+        <img src="/wp-content/themes/timelessWood/assets/images/Layer_4.png" alt="" class="over-ons-waarde-icon">
         <h3 class="over-ons-waarde-title">Duurzaamheid</h3>
         <p class="over-ons-waarde-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
     </div>
     <div id="over-ons-waarde-4" class="over-ons-waarde-container">
-        <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Layer_5.png" alt="" class="over-ons-waarde-icon">
+        <img src="/wp-content/themes/timelessWood/assets/images/Layer_5.png" alt="" class="over-ons-waarde-icon">
         <h3 class="over-ons-waarde-title">Ruim aanbod</h3>
         <p class="over-ons-waarde-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
     </div>
@@ -42,7 +42,7 @@ get_header();
             <p class="over-ons-team-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, <strong>sed diam voluptua</strong>. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. <br><br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, <u>sed diam voluptua.</u></p>
             <a href="#" class="over-ons-team-btn">Lorem ipsum</a>
         </div>
-        <img src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/annie-spratt-unsplash.png" alt="" class="over-ons-team-foto">
+        <img src="/wp-content/themes/timelessWood/assets/images/annie-spratt-unsplash.png" alt="" class="over-ons-team-foto">
     </div>
 </div>
 
@@ -57,7 +57,7 @@ get_header();
                     <p><i id="over-ons-werken-timeline-icon-1" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
                 </div>
                 <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                <img id="over-ons-werken-timeline-foto-1" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
+                <img id="over-ons-werken-timeline-foto-1" src="/wp-content/themes/timelessWood/assets/images/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
             </div>
         </div>
         <div id="over-ons-werken-timeline-2" class="over-ons-werken-timeline-container left">
@@ -67,7 +67,7 @@ get_header();
                     <p><i id="over-ons-werken-timeline-icon-2" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
                 </div>
                 <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                <img id="over-ons-werken-timeline-foto-2" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
+                <img id="over-ons-werken-timeline-foto-2" src="/wp-content/themes/timelessWood/assets/images/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
             </div>
         </div>
         <div id="over-ons-werken-timeline-3" class="over-ons-werken-timeline-container right">
@@ -77,7 +77,7 @@ get_header();
                     <p><i id="over-ons-werken-timeline-icon-3" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
                 </div>
                 <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                <img id="over-ons-werken-timeline-foto-3" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
+                <img id="over-ons-werken-timeline-foto-3" src="/wp-content/themes/timelessWood/assets/images/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
             </div>
         </div>
         <div id="over-ons-werken-timeline-4" class="over-ons-werken-timeline-container left">
@@ -87,7 +87,7 @@ get_header();
                     <p><i id="over-ons-werken-timeline-icon-4" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
                 </div>
                 <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                <img id="over-ons-werken-timeline-foto-4" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
+                <img id="over-ons-werken-timeline-foto-4" src="/wp-content/themes/timelessWood/assets/images/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
             </div>
         </div>
         <div id="over-ons-werken-timeline-5" class="over-ons-werken-timeline-container right">
@@ -97,7 +97,7 @@ get_header();
                     <p><i id="over-ons-werken-timeline-icon-5" class="fa-solid fa-plus fa-2xl" style="color: #000;"></i></p>
                 </div>
                 <p class="over-ons-werken-timeline-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                <img id="over-ons-werken-timeline-foto-5" src="http://sollicitatiewebit.local/wp-content/uploads/2024/09/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
+                <img id="over-ons-werken-timeline-foto-5" src="/wp-content/themes/timelessWood/assets/images/Signing-Contract.png" alt="" class="over-ons-werken-timeline-foto" style="display: none;">
             </div>
         </div>
     </div>

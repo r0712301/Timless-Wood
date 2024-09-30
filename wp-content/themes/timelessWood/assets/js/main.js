@@ -30,12 +30,10 @@ function toggleImg(id) {
 
 
     if (img.style.display === "none") {
-        console.log("open");
         img.style.display = "block";
         icon.classList.replace("fa-plus", "fa-minus");
     }
     else {
-        console.log("close");
         img.style.display = "none";
         icon.classList.replace("fa-minus", "fa-plus");
     }
